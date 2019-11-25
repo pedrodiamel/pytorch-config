@@ -1,8 +1,4 @@
 
-## Server
-
-ssh pedro@192.168.254.192
-
 ## Install with docker
 
         docker build -f "Dockerfile" -t pytcv:latest .
