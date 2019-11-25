@@ -1,0 +1,10 @@
+numpy
+matplotlib
+graphviz
+six
+tqdm
+scipy
+visdom
+opencv-python
+scikit-image
+sklearn
