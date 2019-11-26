@@ -8,3 +8,4 @@ visdom
 opencv-python
 scikit-image
 sklearn
+jupyter
