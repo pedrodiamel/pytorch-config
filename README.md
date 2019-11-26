@@ -29,3 +29,4 @@
 ## run
 
         jupyter notebook --port 8888 --allow-root --ip 0.0.0.0 --no-browser
+        visdom -port 8889
