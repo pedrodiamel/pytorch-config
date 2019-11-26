@@ -6,8 +6,9 @@
                 -ti \
                 --privileged \
                 --ipc=host \
-                -p 8888:8888
-                -p 8889:8889
+                --name pytcv_project \
+                -p 8888:8888 \
+                -p 8889:8889 \
                 -v $HOME/code:/workspace \
                 -v $HOME/.datasets:/.datasets \
                 pytcv:latest \
@@ -17,8 +18,9 @@
                 -ti \
                 --privileged \
                 --ipc=host \
-                -p 8888:8888
-                -p 8889:8889
+                --name pytcv_project \
+                -p 8888:8888 \
+                -p 8889:8889 \
                 -v $HOME/code:/workspace \
                 -v $HOME/.datasets:/.datasets \
                 pytcv:latest \
